@@ -12,7 +12,7 @@ const props = defineProps({ item: {title: String, text: String, image: String} }
         {{ props.item.text }}
       </p>
     </div>
-    <img :src="`/_nuxt/assets/image/${props.item.image}.jpg`" alt="people foto">
+    <img :src="`/public/image/${props.item.image}.jpg`" alt="people foto">
   </div>
 </template>
 
